@@ -447,8 +447,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "ESP32_5V"
+    ],
+    "pinned_symbol_libs": [
+      "ESP32_5v_library"
+    ]
   },
   "meta": {
     "filename": "ESP32_5V.kicad_pro",
