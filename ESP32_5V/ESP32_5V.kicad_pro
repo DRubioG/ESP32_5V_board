@@ -48,11 +48,66 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|126585000|41235000|4dc4c61f-a820-41c9-a29e-f685b27bb719|a93c01fe-af35-41df-a4ae-df4e7f87752f",
+          "Son de los pines"
+        ],
+        [
+          "courtyards_overlap|129085000|41235000|2ba93b04-df40-4fd7-b740-36081da75db2|4dc4c61f-a820-41c9-a29e-f685b27bb719",
+          ""
+        ],
+        [
+          "courtyards_overlap|137615000|41275000|5c78d058-3f3e-444c-b54d-366d4eb2370b|d6084f92-bbd5-46fc-a9e3-50152dfab926",
+          ""
+        ],
+        [
+          "courtyards_overlap|139085000|41275000|928fb8b9-caba-4c2c-bf38-c214f62711ab|d6084f92-bbd5-46fc-a9e3-50152dfab926",
+          ""
+        ],
+        [
+          "courtyards_overlap|67485000|41235000|7e3a36a8-3366-4383-8b8b-7ef92fc7e9c9|ebff49e7-7a27-4602-b269-b05ccb80043d",
+          ""
+        ],
+        [
+          "courtyards_overlap|69985000|41235000|41cb6686-7923-4bc3-acad-2cfe748ddb6c|7e3a36a8-3366-4383-8b8b-7ef92fc7e9c9",
+          ""
+        ],
+        [
+          "courtyards_overlap|78515000|41235000|c91b5268-d731-4321-9806-e966e7daff59|cb33c427-71ad-4886-bc55-c87f207757c2",
+          ""
+        ],
+        [
+          "courtyards_overlap|79985000|41235000|52df153a-8696-40ec-a1fc-be27342fd1af|cb33c427-71ad-4886-bc55-c87f207757c2",
+          ""
+        ],
+        [
+          "silk_edge_clearance|126000000|91650000|65dba7bb-a455-45d9-a9ed-123d200daa95|de81af75-661b-4dca-9847-d640f659c053",
+          ""
+        ],
+        [
+          "silk_edge_clearance|135200000|91650000|65dba7bb-a455-45d9-a9ed-123d200daa95|cff74646-89bb-4a49-b21c-14848f60721a",
+          ""
+        ],
+        [
+          "text_on_edge_cuts|148850000|31650000|c70951ff-967e-4632-81a5-dda8ec0b0f98|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_on_edge_cuts|148850000|91650000|ed4c57dc-09d5-4227-b467-833601f54b34|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -96,12 +151,12 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
-        "text_on_edge_cuts": "error",
+        "text_on_edge_cuts": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -117,22 +172,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.3,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.1,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -180,7 +235,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +268,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -219,7 +289,15 @@
     },
     "layer_pairs": [],
     "layer_presets": [],
-    "viewports": []
+    "viewports": [
+      {
+        "h": 69961228.37877458,
+        "name": "y",
+        "w": 65689668.23023553,
+        "x": 84355165.88488768,
+        "y": 3619385.8106173896
+      }
+    ]
   },
   "boards": [],
   "cvpcb": {
@@ -409,7 +487,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
@@ -430,7 +508,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -477,6 +555,30 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "+5V",
+        "pcb_color": "rgb(255, 0, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "CON_+3V3",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "CON_+5V",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(132, 132, 132)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -484,14 +586,31 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "CON_+3V3",
+        "pattern": "/Conector_3V3/*"
+      },
+      {
+        "netclass": "CON_+5V",
+        "pattern": "/Conector_5V/*"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "+5V*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -575,6 +694,24 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
           "show": false
         }
       ],
