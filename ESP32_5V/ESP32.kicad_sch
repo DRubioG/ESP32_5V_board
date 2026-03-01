@@ -144,7 +144,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N5711UR"
+		(symbol "Diode:1N5819WS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -163,7 +163,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5711UR"
+			(property "Value" "1N5819WS"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -171,7 +171,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_MELF"
+			(property "Footprint" "Diode_SMD:D_SOD-323"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -180,7 +180,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.microsemi.com/document-portal/doc_download/131890-lds-0040-1-datasheet"
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -189,7 +189,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "70V 33mA Schottky diode, MELF(DO-213AA)"
+			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -207,7 +207,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D?MELF*"
+			(property "ki_fp_filters" "D*SOD?323*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -216,7 +216,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N5711UR_0_1"
+			(symbol "1N5819WS_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -254,7 +254,7 @@
 					)
 				)
 			)
-			(symbol "1N5711UR_1_1"
+			(symbol "1N5819WS_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1386,131 +1386,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1738,9 +1613,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "*Solo conectar si el usb c \nno está conectado"
+	(text "*Alimentación independiente\nSolo conectar si el usb c \nno está conectado"
 		(exclude_from_sim no)
-		(at 138.43 100.076 0)
+		(at 143.51 102.362 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1769,15 +1644,13 @@
 		(color 0 0 0 0)
 		(uuid "5f8ac073-f614-422a-8e8e-7f282d3e258d")
 	)
-	(junction
-		(at 163.83 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba7c73a2-8b09-485e-90ec-cf45b197d6bc")
-	)
 	(no_connect
 		(at 166.37 64.77)
 		(uuid "57c88337-b9be-4161-955a-a8eb0e20ef9e")
+	)
+	(no_connect
+		(at 158.75 92.71)
+		(uuid "726aa378-beb9-4dff-a0ab-d70750f7ae4e")
 	)
 	(no_connect
 		(at 128.27 59.69)
@@ -1901,16 +1774,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 104.14) (xy 163.83 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "598e1a87-10e0-4b68-ae80-73a71487bd4f")
-	)
-	(wire
-		(pts
 			(xy 135.89 85.09) (xy 128.27 85.09)
 		)
 		(stroke
@@ -1978,16 +1841,6 @@
 			(type default)
 		)
 		(uuid "871ae8f0-b737-4f81-adcb-271b5b6543cb")
-	)
-	(wire
-		(pts
-			(xy 163.83 95.25) (xy 163.83 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8848b873-8707-4b80-b197-f286f798a338")
 	)
 	(wire
 		(pts
@@ -2111,16 +1964,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 92.71) (xy 172.72 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd77fc9f-7f88-48a1-82ec-d8114a3117bc")
-	)
-	(wire
-		(pts
 			(xy 158.75 62.23) (xy 166.37 62.23)
 		)
 		(stroke
@@ -2148,16 +1991,6 @@
 			(type default)
 		)
 		(uuid "e7bf7ff4-7392-437a-804b-bbcd77592d25")
-	)
-	(wire
-		(pts
-			(xy 158.75 92.71) (xy 163.83 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe99b33-517c-4e58-a3b4-30e2ac0a7dfb")
 	)
 	(wire
 		(pts
@@ -2418,7 +2251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bc47a82-60d2-4ca4-ad82-524ab9509c5b")
-		(property "Reference" "C12"
+		(property "Reference" "C30"
 			(at 125.222 104.14 0)
 			(effects
 				(font
@@ -2496,7 +2329,7 @@
 		(instances
 			(project "ESP32_5V"
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/245e545c-c1b3-43e4-a576-56ce0167bab4"
-					(reference "C12")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -2734,233 +2567,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ea8ab87-517f-4a45-a7df-27c1b6497b00")
-		(property "Reference" "#PWR032"
-			(at 163.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db49db34-142a-40e9-b0fc-190e67a01dcc")
-		)
-		(instances
-			(project "ESP32_5V"
-				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/245e545c-c1b3-43e4-a576-56ce0167bab4"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 172.72 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c9b0b17-bca6-43ef-8d6c-4de688300638")
-		(property "Reference" "#PWR017"
-			(at 168.91 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 176.53 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 172.72 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "698d7a1f-56fa-4c55-9e31-202453918b9e")
-		)
-		(instances
-			(project ""
-				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/245e545c-c1b3-43e4-a576-56ce0167bab4"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 163.83 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "70da9407-4cdf-43e6-a6e6-b5a1b7c6f967")
-		(property "Reference" "C13"
-			(at 167.132 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 167.132 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 164.7952 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 163.83 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 163.83 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 163.83 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 163.83 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7a0a8932-8b07-4385-8e88-0839fe44db1c")
-		)
-		(pin "1"
-			(uuid "a90cddfc-52dd-4b30-859a-e821fd2edc4a")
-		)
-		(instances
-			(project "ESP32_5V"
-				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/245e545c-c1b3-43e4-a576-56ce0167bab4"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 166.37 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2969,7 +2575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83dcb677-c91d-453c-b67f-e04dbe1ad8f9")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR053"
 			(at 172.72 90.17 0)
 			(effects
 				(font
@@ -3020,7 +2626,7 @@
 		(instances
 			(project "ESP32_5V"
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/245e545c-c1b3-43e4-a576-56ce0167bab4"
-					(reference "#PWR028")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3042,7 +2648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5cfc262-f013-4e89-bdae-59da8856a6a8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR052"
 			(at 121.92 90.17 0)
 			(effects
 				(font
@@ -3093,7 +2699,7 @@
 		(instances
 			(project ""
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/245e545c-c1b3-43e4-a576-56ce0167bab4"
-					(reference "#PWR027")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3114,8 +2720,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a5cfc262-f013-4e89-bdae-59da8856a6a8")
-		(property "Reference" "#PWR?"
+		(uuid "a5cfc262-f013-4e89-bdae-59da8856a6a9")
+		(property "Reference" "#PWR051"
 			(at 121.92 116.84 0)
 			(effects
 				(font
@@ -3161,79 +2767,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7e3b464a-bea5-4e4f-82e3-1a840b9354f6")
+			(uuid "7e3b464a-bea5-4e4f-82e3-1a840b9354f7")
 		)
 		(instances
 			(project "ESP32_5V"
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/245e545c-c1b3-43e4-a576-56ce0167bab4"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5711UR")
-		(at 114.3 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a70f5d24-b660-46fb-b270-aa04272ed681")
-		(property "Reference" "D3"
-			(at 114.3 89.154 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5711UR"
-			(at 114.046 96.012 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MELF"
-			(at 114.3 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.microsemi.com/document-portal/doc_download/131890-lds-0040-1-datasheet"
-			(at 114.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "70V 33mA Schottky diode, MELF(DO-213AA)"
-			(at 114.3 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e193ea27-6d62-4fb8-a79e-9e24be726825")
-		)
-		(pin "1"
-			(uuid "4f547c5a-c984-4af3-ad82-83ad16c85c56")
-		)
-		(instances
-			(project ""
-				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/245e545c-c1b3-43e4-a576-56ce0167bab4"
-					(reference "D3")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3248,7 +2787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9bb816e-35af-4ac6-befd-e21b70071b57")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR050"
 			(at 105.41 93.98 0)
 			(effects
 				(font
@@ -3299,13 +2838,80 @@
 		(instances
 			(project ""
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/245e545c-c1b3-43e4-a576-56ce0167bab4"
-					(reference "#PWR026")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
 			(project "ESP32"
 				(path "/ce980e7b-dd96-46ab-b712-358a93796c11"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 114.3 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc3a68a4-74a0-4936-a7ab-d5edb230aee1")
+		(property "Reference" "D4"
+			(at 114.6175 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 114.6175 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 114.3 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 114.3 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "46c8a888-e2ae-45c4-ab0e-360f0a59ba71")
+		)
+		(pin "1"
+			(uuid "ea910faf-015e-444a-a798-b55abd086eb1")
+		)
+		(instances
+			(project ""
+				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/245e545c-c1b3-43e4-a576-56ce0167bab4"
+					(reference "D4")
 					(unit 1)
 				)
 			)

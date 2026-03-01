@@ -2681,7 +2681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2009bff4-2ba9-4d57-91b4-2996c4b4423f")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR027"
 			(at 57.15 68.58 0)
 			(effects
 				(font
@@ -2731,7 +2731,7 @@
 		(instances
 			(project ""
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/d42efb0d-e007-4d41-bee2-3d89ed4ea0d8"
-					(reference "#PWR04")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -2844,7 +2844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "628ea010-8aff-40e6-b2a9-2041a532bf75")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR029"
 			(at 92.71 53.34 0)
 			(effects
 				(font
@@ -2895,7 +2895,7 @@
 		(instances
 			(project "ESP32_5V"
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/d42efb0d-e007-4d41-bee2-3d89ed4ea0d8"
-					(reference "#PWR038")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2910,7 +2910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71f1cde1-d66e-47d2-8b13-71e965a07a52")
-		(property "Reference" "C14"
+		(property "Reference" "C16"
 			(at 80.772 36.83 0)
 			(effects
 				(font
@@ -2988,7 +2988,7 @@
 		(instances
 			(project "ESP32_5V"
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/d42efb0d-e007-4d41-bee2-3d89ed4ea0d8"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3198,7 +3198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94aca1e3-9726-4b38-8872-99e71acf1ba3")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR030"
 			(at 113.03 133.35 0)
 			(effects
 				(font
@@ -3248,7 +3248,7 @@
 		(instances
 			(project ""
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/d42efb0d-e007-4d41-bee2-3d89ed4ea0d8"
-					(reference "#PWR05")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3263,7 +3263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97197015-8532-4cd9-b671-baadaec51b4a")
-		(property "Reference" "C17"
+		(property "Reference" "C19"
 			(at 111.252 36.83 0)
 			(effects
 				(font
@@ -3341,7 +3341,7 @@
 		(instances
 			(project "ESP32_5V"
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/d42efb0d-e007-4d41-bee2-3d89ed4ea0d8"
-					(reference "C17")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -3356,7 +3356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba14cc2d-d75d-4770-8e09-7dffd3339293")
-		(property "Reference" "C16"
+		(property "Reference" "C18"
 			(at 101.092 36.83 0)
 			(effects
 				(font
@@ -3434,7 +3434,7 @@
 		(instances
 			(project "ESP32_5V"
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/d42efb0d-e007-4d41-bee2-3d89ed4ea0d8"
-					(reference "C16")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3449,7 +3449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc338985-3f1b-420b-94f2-71f82a5be138")
-		(property "Reference" "C15"
+		(property "Reference" "C17"
 			(at 90.932 36.83 0)
 			(effects
 				(font
@@ -3527,7 +3527,7 @@
 		(instances
 			(project "ESP32_5V"
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/d42efb0d-e007-4d41-bee2-3d89ed4ea0d8"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3737,7 +3737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9513714-6156-44c7-973c-f6ef20bd98a8")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR028"
 			(at 92.71 34.29 0)
 			(effects
 				(font
@@ -3787,7 +3787,7 @@
 		(instances
 			(project "ESP32_5V"
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/d42efb0d-e007-4d41-bee2-3d89ed4ea0d8"
-					(reference "#PWR040")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
