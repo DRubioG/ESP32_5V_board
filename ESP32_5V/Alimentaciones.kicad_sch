@@ -2829,6 +2829,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 210.82 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d797c6-05d6-49fb-aeb3-fd004048e3ca")
+		(property "Reference" "R8"
+			(at 213.36 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 213.36 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 211.836 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 210.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d749b064-5be8-45b6-9c6e-13acdf1b548e")
+		)
+		(pin "1"
+			(uuid "76708a0b-50e8-45b9-a6ad-de8dd1920d4f")
+		)
+		(instances
+			(project "ESP32_5V"
+				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 171.45 69.85 270)
 		(unit 1)
@@ -3028,85 +3098,6 @@
 			(project "ESP32_5V"
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 210.82 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cd6ff2a-6258-46b9-ba9f-811e871e9f44")
-		(property "Reference" "D1"
-			(at 214.63 80.3274 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 214.63 82.8674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "58fcf4c1-9bfc-4f65-a5aa-a0c89917712c")
-		)
-		(pin "1"
-			(uuid "294d031d-bd74-4260-8de4-16a2ce0a7645")
-		)
-		(instances
-			(project "ESP32_5V"
-				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3344,76 +3335,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 210.82 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25bcf03b-76b1-42cf-ad04-870e13865703")
-		(property "Reference" "R8"
-			(at 213.36 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 213.36 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 211.836 70.104 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 210.82 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d749b064-5be8-45b6-9c6e-13acdf1b548e")
-		)
-		(pin "1"
-			(uuid "76708a0b-50e8-45b9-a6ad-de8dd1920d4f")
-		)
-		(instances
-			(project "ESP32_5V"
-				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 210.82 62.23 0)
 		(unit 1)
@@ -3422,7 +3343,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b58d4c9-831c-4960-9365-fafeaeee72f3")
+		(uuid "2a955f46-02ab-4e5a-bc7d-e69d0bedbfe1")
 		(property "Reference" "#PWR021"
 			(at 210.82 66.04 0)
 			(effects
@@ -3709,6 +3630,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 210.82 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4787bf43-750c-45ad-b12d-f77af5a66171")
+		(property "Reference" "D1"
+			(at 214.63 80.3274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 214.63 82.8674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58fcf4c1-9bfc-4f65-a5aa-a0c89917712c")
+		)
+		(pin "1"
+			(uuid "294d031d-bd74-4260-8de4-16a2ce0a7645")
+		)
+		(instances
+			(project "ESP32_5V"
+				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 129.54 100.33 0)
 		(unit 1)
@@ -3779,72 +3779,6 @@
 			(project ""
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 175.26 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54bcd2bc-e7cf-49e1-a83f-88759dc0fcbb")
-		(property "Reference" "#PWR020"
-			(at 175.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 175.26 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 175.26 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f917986-de5f-4239-b85e-1ac6e8185427")
-		)
-		(instances
-			(project "ESP32_5V"
-				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3976,6 +3910,72 @@
 			(project ""
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 175.26 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cdecca2-38c9-405c-8a5a-158c373bda40")
+		(property "Reference" "#PWR020"
+			(at 175.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 175.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 175.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f917986-de5f-4239-b85e-1ac6e8185427")
+		)
+		(instances
+			(project "ESP32_5V"
+				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
