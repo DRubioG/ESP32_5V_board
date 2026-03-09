@@ -144,6 +144,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N5712UR"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5712UR"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_MELF"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.microsemi.com/document-portal/doc_download/131890-lds-0040-1-datasheet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20V 75mA Schottky diode, MELF(DO-213AA)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D?MELF*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5712UR_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5712UR_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ESP32_5v_library:esp32_board_pins"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1086,156 +1236,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1463,19 +1463,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "*Alimentación independiente\nSolo conectar si el usb c \nno está conectado"
-		(exclude_from_sim no)
-		(at 143.51 102.362 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(italic yes)
-			)
-		)
-		(uuid "758ec70b-f40c-408b-b8de-43f1c17fbcea")
-	)
 	(text "ESP32"
 		(exclude_from_sim no)
 		(at 144.526 33.528 0)
@@ -1489,10 +1476,10 @@
 		(uuid "e756ad14-f029-4494-bc6f-0ef95cf1b454")
 	)
 	(junction
-		(at 121.92 92.71)
+		(at 133.35 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5f8ac073-f614-422a-8e8e-7f282d3e258d")
+		(uuid "4bb18c09-324b-4342-a871-11460ee055d0")
 	)
 	(no_connect
 		(at 166.37 64.77)
@@ -1521,16 +1508,6 @@
 	(no_connect
 		(at 128.27 57.15)
 		(uuid "f5233de7-3629-4970-8a62-ff1e056e402f")
-	)
-	(wire
-		(pts
-			(xy 116.84 92.71) (xy 121.92 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "101ae3a0-5593-402b-9e3e-d64803681768")
 	)
 	(wire
 		(pts
@@ -1574,16 +1551,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 92.71) (xy 124.46 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47a17a08-677c-4333-a52e-47aaa9a95a26")
-	)
-	(wire
-		(pts
 			(xy 135.89 59.69) (xy 128.27 59.69)
 		)
 		(stroke
@@ -1591,6 +1558,16 @@
 			(type default)
 		)
 		(uuid "49c1ef5a-115e-4612-846e-37faf31290bc")
+	)
+	(wire
+		(pts
+			(xy 133.35 92.71) (xy 135.89 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c85e547-68fe-44da-8db3-5db86b6912c9")
 	)
 	(wire
 		(pts
@@ -1614,16 +1591,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 90.17) (xy 116.84 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5285722e-a1cc-47f3-975d-350ed16314ae")
-	)
-	(wire
-		(pts
 			(xy 135.89 85.09) (xy 128.27 85.09)
 		)
 		(stroke
@@ -1634,7 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 109.22) (xy 121.92 110.49)
+			(xy 133.35 102.87) (xy 133.35 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1704,7 +1671,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 101.6) (xy 121.92 92.71)
+			(xy 133.35 95.25) (xy 133.35 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1744,13 +1711,13 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 92.71) (xy 135.89 92.71)
+			(xy 121.92 92.71) (xy 123.19 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b67a1951-efd9-48fc-8067-4c38acb42bf8")
+		(uuid "b032cbcb-d585-4655-ab23-0b9c2a5afa95")
 	)
 	(wire
 		(pts
@@ -1781,6 +1748,16 @@
 			(type default)
 		)
 		(uuid "bbb3e9c7-25ea-4c32-bcc1-d6afe25b967b")
+	)
+	(wire
+		(pts
+			(xy 130.81 92.71) (xy 133.35 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87b4529-f0df-47f4-afd5-f357c5bc9afa")
 	)
 	(wire
 		(pts
@@ -2084,7 +2061,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 121.92 105.41 0)
+		(at 133.35 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2092,7 +2069,7 @@
 		(dnp no)
 		(uuid "0bc47a82-60d2-4ca4-ad82-524ab9509c5b")
 		(property "Reference" "C30"
-			(at 125.222 104.14 0)
+			(at 136.652 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2078,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 125.222 106.934 0)
+			(at 136.652 100.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2110,7 +2087,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 122.8852 109.22 0)
+			(at 134.3152 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2119,7 +2096,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 105.41 0)
+			(at 133.35 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2105,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 121.92 105.41 0)
+			(at 133.35 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,7 +2114,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 121.92 105.41 0)
+			(at 133.35 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2122,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 121.92 105.41 0)
+			(at 133.35 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2130,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 121.92 105.41 0)
+			(at 133.35 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2170,79 +2147,6 @@
 			(project "ESP32_5V"
 				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/245e545c-c1b3-43e4-a576-56ce0167bab4"
 					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 129.54 92.71 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "262d3302-b277-4222-bc0e-f3fd4450637f")
-		(property "Reference" "JP1"
-			(at 124.968 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 136.652 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 129.54 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 129.54 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85097b0b-6c75-4dbc-9f4c-60340d5ab994")
-		)
-		(pin "2"
-			(uuid "07c2d1e3-93cb-4f7e-bebd-23047d06ee26")
-		)
-		(instances
-			(project ""
-				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/245e545c-c1b3-43e4-a576-56ce0167bab4"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project "ESP32"
-				(path "/ce980e7b-dd96-46ab-b712-358a93796c11"
-					(reference "JP?")
 					(unit 1)
 				)
 			)
@@ -2406,6 +2310,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N5712UR")
+		(at 127 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b035091-4bc4-43c3-8d65-dd8370b26c70")
+		(property "Reference" "D4"
+			(at 127 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5712UR"
+			(at 126.746 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MELF"
+			(at 127 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.microsemi.com/document-portal/doc_download/131890-lds-0040-1-datasheet"
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 75mA Schottky diode, MELF(DO-213AA)"
+			(at 127 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc310851-0643-49c3-9655-8cc44600e9f1")
+		)
+		(pin "1"
+			(uuid "37417453-fcff-40f0-b397-463284661a7f")
+		)
+		(instances
+			(project ""
+				(path "/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/245e545c-c1b3-43e4-a576-56ce0167bab4"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 166.37 90.17 90)
 		(unit 1)
@@ -2553,7 +2524,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 110.49 0)
+		(at 133.35 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2562,7 +2533,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5cfc262-f013-4e89-bdae-59da8856a6a9")
 		(property "Reference" "#PWR051"
-			(at 121.92 116.84 0)
+			(at 133.35 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +2542,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 124.46 111.7599 0)
+			(at 135.89 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 110.49 0)
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 110.49 0)
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 110.49 0)
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +2591,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 116.84 90.17 0)
+		(at 121.92 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2628,7 +2599,7 @@
 		(dnp no)
 		(uuid "c9bb816e-35af-4ac6-befd-e21b70071b57")
 		(property "Reference" "#PWR050"
-			(at 116.84 93.98 0)
+			(at 125.73 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2608,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 113.284 86.106 0)
+			(at 118.11 92.202 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 90.17 0)
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +2626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 90.17 0)
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,7 +2635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 116.84 90.17 0)
+			(at 121.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
