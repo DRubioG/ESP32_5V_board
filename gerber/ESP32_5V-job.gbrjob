@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.7"
     },
-    "CreationDate": "2026-02-28T13:11:26+01:00"
+    "CreationDate": "2026-03-10T20:36:00+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -27,9 +27,9 @@
       "PadToPad": 0.1,
       "PadToTrack": 0.1,
       "TrackToTrack": -0.0,
-      "MinLineWidth": 0.1,
-      "TrackToRegion": 0.25,
-      "RegionToRegion": 0.25
+      "MinLineWidth": 0.05,
+      "TrackToRegion": 0.1,
+      "RegionToRegion": 0.1
     },
     {
       "Layers": "Inner",
@@ -59,16 +59,6 @@
     {
       "Path": "ESP32_5V-B_Cu&+3V3.gbr",
       "FileFunction": "Copper,L4,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ESP32_5V-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ESP32_5V-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {

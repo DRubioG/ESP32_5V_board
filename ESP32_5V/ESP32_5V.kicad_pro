@@ -654,7 +654,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../ficheros_fabricacion/",
+      "plot": "../gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
