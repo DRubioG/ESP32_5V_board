@@ -341,19 +341,19 @@
         ""
       ],
       [
-        "power_pin_not_driven|1346200|825500|67ba5c67-e5d0-4c05-8a0e-2aa085c3107f|00000000-0000-0000-0000-000000000000|/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1|/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1|",
+        "power_pin_not_driven|1346200|825500|67ba5c67-e5d0-4c05-8a0e-2aa085c3107f|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
-        "power_pin_not_driven|1397000|1308100|34dfa159-8a90-4ed0-8e14-aa23011850de|00000000-0000-0000-0000-000000000000|/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1|/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1|",
+        "power_pin_not_driven|1397000|1308100|34dfa159-8a90-4ed0-8e14-aa23011850de|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
-        "power_pin_not_driven|469900|838200|b102db57-bff7-4fd8-b2c6-cd9baca7a0c6|00000000-0000-0000-0000-000000000000|/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1|/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd/f098aed4-494c-46a4-82c5-31f412f0c8d1|",
+        "power_pin_not_driven|469900|838200|b102db57-bff7-4fd8-b2c6-cd9baca7a0c6|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
-        "power_pin_not_driven|495300|1892300|9bf5a04f-f84b-466b-96c1-409c6b039af9|00000000-0000-0000-0000-000000000000|/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd|/a7bda8b3-4b40-4c73-a9d2-e587ed8710cd|",
+        "power_pin_not_driven|495300|1892300|9bf5a04f-f84b-466b-96c1-409c6b039af9|00000000-0000-0000-0000-000000000000|||",
         ""
       ]
     ],
@@ -697,7 +697,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "ESP32_5V.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
