@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -62,59 +62,19 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|102165146|55635000|906cb442-3c21-4c32-befa-6b61a04f8ad9|f2d852fd-3585-4c5e-8819-6475f6705c54",
+          "silk_edge_clearance|131000000|43400000|96d06e6c-9cb8-477d-a38a-975670296999|f78e02a7-8c84-4b6d-8f56-7c52f7928b52",
           ""
         ],
         [
-          "courtyards_overlap|103635146|55635000|3d188696-3184-43f0-a216-ef14626a8fea|f2d852fd-3585-4c5e-8819-6475f6705c54",
+          "silk_edge_clearance|153000000|43400000|96d06e6c-9cb8-477d-a38a-975670296999|80da88c3-caf1-4130-84a7-1a2e41bf7810",
           ""
         ],
         [
-          "courtyards_overlap|111903315|55550843|896784df-3dbf-496c-99bd-af7162bc8d3e|e9bb9000-d653-4bb2-861a-3d2174db4378",
+          "silk_edge_clearance|168050000|123400000|96d06e6c-9cb8-477d-a38a-975670296999|95f1f759-67a9-417c-bf55-1a41704e6f31",
           ""
         ],
         [
-          "courtyards_overlap|115433315|55550843|896784df-3dbf-496c-99bd-af7162bc8d3e|a30c06d7-61c4-465e-94e5-a4df60842746",
-          ""
-        ],
-        [
-          "courtyards_overlap|161235000|55635000|55d94cb9-1ba2-46ce-99a2-8a4770a525fc|ebb7e3a1-357d-440a-a53e-0af8aa711027",
-          ""
-        ],
-        [
-          "courtyards_overlap|164765000|55635000|55d94cb9-1ba2-46ce-99a2-8a4770a525fc|caea160f-cc3a-4614-93e3-549518f45419",
-          ""
-        ],
-        [
-          "courtyards_overlap|172535000|55635000|29c4df54-0ca5-41b9-956a-03b44319f0d2|56a00385-43e7-4e24-b1a9-80966a100795",
-          ""
-        ],
-        [
-          "courtyards_overlap|176065000|55635000|29c4df54-0ca5-41b9-956a-03b44319f0d2|5ba3d2d8-6352-4d47-9d0f-6ea9985c80a2",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|136700000|102850000|2dee24e8-5f46-4813-afe2-60ff25cd4dfa|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_edge_clearance|128300000|43400000|96d06e6c-9cb8-477d-a38a-975670296999|f78e02a7-8c84-4b6d-8f56-7c52f7928b52",
-          ""
-        ],
-        [
-          "silk_edge_clearance|150300000|43400000|96d06e6c-9cb8-477d-a38a-975670296999|80da88c3-caf1-4130-84a7-1a2e41bf7810",
-          ""
-        ],
-        [
-          "silk_edge_clearance|164650000|113400000|96d06e6c-9cb8-477d-a38a-975670296999|95f1f759-67a9-417c-bf55-1a41704e6f31",
-          ""
-        ],
-        [
-          "silk_edge_clearance|173850000|113400000|96d06e6c-9cb8-477d-a38a-975670296999|43d1658e-0527-4085-b95e-b02368e54065",
-          ""
-        ],
-        [
-          "silk_over_copper|118700000|83950000|68bf8e1a-c2f7-4245-a1d5-0c6a5f007a38|00000000-0000-0000-0000-000000000000",
+          "silk_edge_clearance|177250000|123400000|96d06e6c-9cb8-477d-a38a-975670296999|43d1658e-0527-4085-b95e-b02368e54065",
           ""
         ]
       ],
@@ -127,7 +87,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -187,12 +147,12 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.1,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.1,
-        "min_hole_to_hole": 0.1,
+        "min_hole_to_hole": 0.05,
         "min_microvia_diameter": 0.1,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
@@ -290,7 +250,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4,
+          "diameter": 0.45,
           "drill": 0.2
         }
       ],
@@ -847,7 +807,7 @@
         "uuid": "a7bda8b3-4b40-4c73-a9d2-e587ed8710cd"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D5",
     "variants": []
   },
   "sheets": [
